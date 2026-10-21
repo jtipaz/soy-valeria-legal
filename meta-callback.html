@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Autorización Meta</title></head>
+<body style="font-family:system-ui;max-width:640px;margin:4rem auto;padding:1rem">
+<h1>Autorización Meta</h1>
+<p>Procesando el retorno seguro hacia tu estudio local…</p>
+<script>
+  const localCallback = "http://127.0.0.1:8000/publishing/meta/oauth/callback";
+  window.location.replace(localCallback + window.location.search);
+</script>
+<noscript><p>Activa JavaScript para completar el retorno.</p></noscript>
+</body>
+</html>
